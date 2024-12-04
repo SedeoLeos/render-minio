@@ -1,0 +1,4 @@
+FROM quay.io/minio/console:latest
+ENV CONSOLE_MINIO_SERVER=http://minio-server:9000
+CMD ["minio-console"]
+EXPOSE 9001
